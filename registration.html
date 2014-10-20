@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="Stylesheet/basic.css">
+    <link rel="stylesheet" type="text/css" href="Stylesheet/form.css">
+    <script src="js/jquery-2.0.3.min.js" type="text/javascript"></script>
+    <script src="js/jquery.validate.js" type="text/javascript"></script>
+    
+
+    <title>Miller Gallery</title>  
+
+    <script>
+$(document).ready(function(){
+    $("#contact_form").validate();
+   });
+</script>
+
+  </head>
+  <body id="page">
+     <div id="wrapper">
+
+     <div id="navigation">
+                <ul id="nav">
+                    <li><a href="index.html">Home</a></li> 
+                    <li><a href="index2.html">Design 2</a></li>
+                    <li><a href="about.html">Andy Warhol</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="registration.html">Register</a></li>           
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+    </div>
+    <div id="content">
+       <form id="contact_form" name="myform" method="post" enctype="plain/text" action="http://www.cmu.edu/cgi-bin/mailto">
+        Mail To*
+          <input name="MailTo" value="ppodnies@andrew.cmu.edu" />
+          <p>
+          Name *
+          <input name="Name"  class="required" type="text" id="name"/>
+          <label for="name"></label>
+          </p>
+          <p>
+          State
+          <input name="State"  type="text" id="state"/>
+          <label for="name"></label>
+          </p>
+          <p>
+          Zip Code *
+          <input name="Zip Code"  class="required" minLength="5" maxlength="5" type="text" digits="true" id="zipcode"/>
+          <label for="name"></label>
+          </p>
+          <p>
+          <p>
+          Email *
+          <input name="Email" value="" class="required email" type="text" id="email" />
+          <label for="email"></label>
+           </p>
+           <p>How you would like to help</p>
+          <p>
+         
+          <textarea name="Comments" class="required" id="comment"></textarea>
+           </p>
+          <p>
+          <input value="Submit" type="submit" id="Send"/>
+           </p>
+        </form>
+    </div>
+    
+
+    
+     <div id="footer">
+        <p id="foot">
+        Miller Gallery </br>
+        5000 Forbes Avenue </br>
+        Pittsburgh, PA 15289</br>
+        412.268.3618</br>
+        <a href="mailto:miller-gallery@andrew.cmu.edu"> miller-gallery@andrew.cmu.edu</a>
+        </p>
+     </div>
+
+    </div>
+  </body>
+</html>

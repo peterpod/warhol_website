@@ -1,0 +1,56 @@
+
+input, textarea {
+ padding: 8px;
+ border: solid 1px #E5E5E5;
+ font: normal 12px Verdana, Tahoma, sans-serif;
+ width: auto;
+
+ }
+
+textarea {
+	-moz-border-radius:12px 12px 12px 12px;
+-webkit-border-radius: 12px 12px 12px 12px;
+ width: auto;
+ height: auto;
+ line-height: 150%;
+ box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;/* Default property recognized by some browsers- a Good practice to include it*/
+-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;/*For Mozilla Firefox Browsers*/
+-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;/*For Webkite browsers - Chrome and Safari*/
+	
+ }
+
+.form label {
+	-moz-border-radius:12px 12px 12px 12px;
+-webkit-border-radius: 12px 12px 12px 12px;
+ margin-left: 10px;
+ color: #999999;
+ box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;/* Default property recognized by some browsers- a Good practice to include it*/
+-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;/*For Mozilla Firefox Browsers*/
+-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;/*For Webkite browsers - Chrome and Safari*/
+	
+ }
+
+.submit input {
+	-moz-border-radius:12px 12px 12px 12px;
+-webkit-border-radius: 12px 12px 12px 12px;
+ width: auto;
+ padding: 9px 15px;
+ background: #617798;
+ font-size: 14px;
+ color: #FFFFFF;
+ cursor:pointer;
+ box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;/* Default property recognized by some browsers- a Good practice to include it*/
+-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;/*For Mozilla Firefox Browsers*/
+-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;/*For Webkite browsers - Chrome and Safari*/
+	
+ }
+#form-div {
+	-moz-border-radius:12px 12px 12px 12px;
+-webkit-border-radius: 12px 12px 12px 12px;
+background-color:#F5F5F5;
+padding:15px;
+box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;/* Default property recognized by some browsers- a Good practice to include it*/
+-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;/*For Mozilla Firefox Browsers*/
+-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;/*For Webkite browsers - Chrome and Safari*/
+
+}
